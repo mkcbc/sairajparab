@@ -1,0 +1,35 @@
+<!-- Wedding Photos Gallery: "Reva & Zach" -->
+<section style="background: #f5ede6; padding: 30px 0; min-height:100vh;">
+  <div style="max-width: 900px; margin: 0 auto;">
+    <!-- Top: 2 Photo Row -->
+    <div style="display: flex; gap: 12px; margin-bottom: 12px;">
+      <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=500&q=80" 
+           style="flex:1; height:230px; object-fit:cover; border-radius:7px;">
+      <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=500&q=80" 
+           style="flex:1; height:230px; object-fit:cover; border-radius:7px;">
+    </div>
+    <!-- Middle: Main Vertical Feature -->
+    <img src="https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=900&q=80" 
+         style="width:100%; height:340px; object-fit:cover; border-radius:7px; margin-bottom: 12px;">
+    <!-- Next: Main Ceremony Scene -->
+    <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a2652?auto=format&fit=crop&w=900&q=80" 
+         style="width:100%; height:340px; object-fit:cover; border-radius:7px; margin-bottom: 12px;">
+    <!-- Bottom: Two Smaller Images Row -->
+    <div style="display: flex; gap: 10px;">
+      <img src="https://images.unsplash.com/photo-1458501534264-7d5bc4d8da5e?auto=format&fit=crop&w=250&q=80" 
+           style="flex:0.5; min-width:0; height:140px; object-fit:cover; border-radius:7px;">
+      <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=250&q=80" 
+           style="flex:0.5; min-width:0; height:140px; object-fit:cover; border-radius:7px;">
+    </div>
+  </div>
+</section>
+<!-- Responsive styles -->
+<style>
+@media (max-width: 700px) {
+  section div > div, section div > div:last-child {
+    flex-direction: column;
+    gap: 10px;
+  }
+  section img { height: 170px !important; }
+}
+</style>
