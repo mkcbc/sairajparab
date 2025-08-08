@@ -5961,4 +5961,12 @@ background-position: center;
   }
 }
 
-    
+  .navbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-toggle {
+    margin-left: auto; /* pushes it away from logo */
+}
